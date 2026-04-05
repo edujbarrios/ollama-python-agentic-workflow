@@ -1,3 +1,4 @@
+from ollama._agent import Agent, AsyncAgent
 from ollama._client import AsyncClient, Client
 from ollama._types import (
   ChatResponse,
@@ -20,6 +21,8 @@ from ollama._types import (
 )
 
 __all__ = [
+  'Agent',
+  'AsyncAgent',
   'AsyncClient',
   'ChatResponse',
   'Client',
